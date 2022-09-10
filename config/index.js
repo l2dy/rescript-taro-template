@@ -25,10 +25,14 @@ const config = {
   },
   mini: {
     postcss: {
+      tailwindcss: {
+        enable: true,
+        config: {
+        }
+      },
       pxtransform: {
         enable: true,
         config: {
-
         }
       },
       url: {
