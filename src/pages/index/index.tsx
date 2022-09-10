@@ -1,5 +1,6 @@
 import { Component, PropsWithChildren } from 'react'
 import { View, Text } from '@tarojs/components'
+import Counter from '../../components/Counter.gen'
 import './index.scss'
 
 export default class Index extends Component<PropsWithChildren> {
@@ -17,7 +18,7 @@ export default class Index extends Component<PropsWithChildren> {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <Counter />
       </View>
     )
   }
